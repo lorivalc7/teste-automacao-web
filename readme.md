@@ -1,6 +1,6 @@
 ## Objetivo
 
-Automatizar o cadastro de um novo fornecedor
+Analise algum fluxo do sistema que você considere importante, escreva o caso de teste e o automatizade.
  
 ## Pré-Condições
 
