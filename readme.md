@@ -1,6 +1,6 @@
 ## Objetivo
 
-Analise algum fluxo do sistema que você considere importante, escreva o caso de teste e o automatizade.
+Analise algum fluxo do sistema que você considere importante, escreva o caso de teste e o automatize.
  
 ## Pré-Condições
 
