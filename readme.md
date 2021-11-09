@@ -16,16 +16,6 @@ Analise algum fluxo do sistema que você considere importante, escreva o caso de
 * Email: admin@phptravels.com
 * Password: demoadmin
 
-### Cenário a ser automatizado
-
-**Given** that I have logged into the system
-**And** click the accounts
-**And** click the suppliers
-**And** click the Add button
-**And** fill out the form
-**When** I click submit button
-**Then** I must validate the email in the list
-
 ## Entrega do Projeto
 
 Faça um *Fork* do projeto atual
