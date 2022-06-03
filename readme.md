@@ -11,7 +11,7 @@ Analise algum fluxo do sistema que você considere importante, escreva o caso de
 5. TestNg ou Junit
 6. preencha um formulario
 7. valide a inserção dos dados preenchidos
-8. organize os commits de acordo com cada feature
+8. organize os commits de acordo com cada feature implementada
 
 ### Descrição
 
