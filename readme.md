@@ -21,7 +21,7 @@ Analise algum fluxo do sistema que você considere importante, escreva o caso de
 
 ## Entrega do Projeto
 
-Faça um *Fork* do projeto atual
+Faça um *Fork* deste projeto
 
 #### O que será avaliado
 
