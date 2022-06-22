@@ -15,6 +15,8 @@ public class DashboardPage {
 	private By buttonMenu = By.id("drawerToggle");
 	private By aAccounts = By.xpath("(//div[@class='nav']//a[@aria-controls='collapseLayouts'])[1]");
 	private By aSuppliers = By.xpath("//a[@class='nav-link suppliers mdc-ripple-upgraded']");
+	private By aAgents = By.xpath("//*[@id='collapseLayouts']/nav/a[3]");
+	
 	public boolean validarH1Dashboard(String texto) {
 		try {
 			Thread.sleep(5 * 1000L);
@@ -47,4 +49,13 @@ public class DashboardPage {
 		return new SuppliersPage(driver);
 	}
 	
+	public AgentsPage clicoAAgents() {
+		try {
+			Thread.sleep(2 * 1000L);
+			driver.findElement(aAgents).click();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		return new AgentsPage(driver);
+	}
 }

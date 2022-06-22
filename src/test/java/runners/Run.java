@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = "src/test/resources/features",
 		glue = {""},
-		tags = "@travels",
+		tags = "@maisqueum",
 		plugin = "pretty",
 		monochrome = true,
 		dryRun = false,

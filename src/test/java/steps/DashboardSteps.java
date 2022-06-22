@@ -4,13 +4,17 @@ import static org.junit.Assert.assertTrue;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pages.AgentsPage;
 import pages.DashboardPage;
+import pages.SuppliersPage;
 
 public class DashboardSteps {
 
 	BaseSteps baseSteps = new BaseSteps();
 
 	private DashboardPage dashboardPage = new DashboardPage(baseSteps.driver);
+	private SuppliersPage suppliersPage;
+	private AgentsPage agentsPage;
 
 	@Then("valido a pagina dashboard")
 	public void valido_a_pagina_dashboard() {
@@ -29,7 +33,11 @@ public class DashboardSteps {
 	
 	@When("clico na opcao suppliers")
 	public void clico_na_opcao_suppliers() {
-	    dashboardPage.clicoASuppliers();
+	    suppliersPage = dashboardPage.clicoASuppliers();
 	}
 	
+	@When("clico na opcao agents")
+	public void clico_na_opcao_agents() {
+	    agentsPage = dashboardPage.clicoAAgents();
+	}
 }

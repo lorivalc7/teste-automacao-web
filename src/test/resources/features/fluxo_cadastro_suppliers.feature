@@ -1,7 +1,7 @@
 Feature: fluxo de cadastro de suppliers
 	Eu quero realizar um fluxo de cadastro de suppliers no site https://phptravels.net/admin/
 	
-	@travels
+	@suppliers @maisqueum
 	Scenario: Realizar fluxo de cadastro de suppliers
 		Given que estou no site
 		When preencho o campo email
